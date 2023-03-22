@@ -1,3 +1,10 @@
+#NoteFree temp files
+.vscode/
+*.wav
+notes/
+recordings/
+logs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

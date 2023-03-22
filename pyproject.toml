@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "notefree"
+version = "1.0"
+description = "Transcribe and summarize lectures using Whisper and ChatGPT"
+authors = ["Elea Zhong <eleaz@usc.edu>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyaudio = "^0.2.13"
+requests = "^2.28.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
